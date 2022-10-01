@@ -7,7 +7,7 @@ it does not need any operating system as it was designed to run in bare metal, f
 
 ![Schermata del 2022-02-28 13-55-40](https://user-images.githubusercontent.com/74959879/155987072-e2b84be2-a4b5-41a4-b819-d3c1be605b5d.png)
 
-**#Feauters**
+# Feauters
 
 All the interpreter features:
 
@@ -23,7 +23,7 @@ All the interpreter features:
    
    • operators for comparison (==, !=, <, <=, >, >=).
   
-**#Source**
+# Source
 
 The source consists of 9 modules, plus 1 header file containing the information of the initial screen.
 
@@ -63,7 +63,7 @@ command line commands are as follows:
 Then there is a module for loading the BASIC interpreter in RAM memory, that is the one for the interpreter bootloader
 (boot.asm).
 
-**#Execution**
+# Execution
 
 Since the program was designed to run in bare metal, the image of the virtual disk containing the instructions of the interpreter is provided, the name of this file is "basic.img", it is strongly recommended not to modify the contents of the file, a modification could lead to a malfunction of the interpreter that would not start anymore, or would crash apparently meaningless.
 
